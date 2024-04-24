@@ -116,6 +116,12 @@ public class EntityRegistry {
                     .clientTrackingRange(64)
                     .build(new ResourceLocation(IronsSpellbooks.MODID, "firebolt").toString()));
 
+    public static final RegistryObject<EntityType<TestBoltProjectile>> TESTBOLT_PROJECTILE =
+            ENTITIES.register("testbolt", () -> EntityType.Builder.<TestboltProjectile>of(TestboltProjectile::new, MobCategory.MISC)
+                    .sized(.5f, .5f)
+                    .clientTrackingRange(64)
+                    .build(new ResourceLocation(IronsSpellbooks.MODID, "testbolt").toString()));
+
     public static final RegistryObject<EntityType<IcicleProjectile>> ICICLE_PROJECTILE =
             ENTITIES.register("icicle", () -> EntityType.Builder.<IcicleProjectile>of(IcicleProjectile::new, MobCategory.MISC)
                     .sized(.5f, .5f)
