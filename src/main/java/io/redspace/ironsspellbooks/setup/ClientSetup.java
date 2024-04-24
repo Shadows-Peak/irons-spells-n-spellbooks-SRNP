@@ -48,6 +48,7 @@ import io.redspace.ironsspellbooks.entity.spells.eldritch_blast.EldritchBlastRen
 import io.redspace.ironsspellbooks.entity.spells.electrocute.ElectrocuteRenderer;
 import io.redspace.ironsspellbooks.entity.spells.fireball.FireballRenderer;
 import io.redspace.ironsspellbooks.entity.spells.firebolt.FireboltRenderer;
+import io.redspace.ironsspellbooks.entity.spells.testbolt.TestboltRenderer;
 import io.redspace.ironsspellbooks.entity.spells.guiding_bolt.GuidingBoltRenderer;
 import io.redspace.ironsspellbooks.entity.spells.gust.GustRenderer;
 import io.redspace.ironsspellbooks.entity.spells.ice_block.IceBlockRenderer;
@@ -143,6 +144,7 @@ public class ClientSetup {
         event.registerLayerDefinition(EldritchBlastRenderer.MODEL_LAYER_LOCATION, EldritchBlastRenderer::createBodyLayer);
         event.registerLayerDefinition(FireballRenderer.MODEL_LAYER_LOCATION, FireballRenderer::createBodyLayer);
         event.registerLayerDefinition(FireboltRenderer.MODEL_LAYER_LOCATION, FireboltRenderer::createBodyLayer);
+        event.registerLayerDefinition(TestboltRenderer.MODEL_LAYER_LOCATION, TestboltRenderer::createBodyLayer);
         event.registerLayerDefinition(GuidingBoltRenderer.MODEL_LAYER_LOCATION, GuidingBoltRenderer::createBodyLayer);
         event.registerLayerDefinition(IcicleRenderer.MODEL_LAYER_LOCATION, IcicleRenderer::createBodyLayer);
         event.registerLayerDefinition(ShieldTrimModel.LAYER_LOCATION, ShieldTrimModel::createBodyLayer);
@@ -225,7 +227,7 @@ public class ClientSetup {
         event.registerEntityRenderer(EntityRegistry.FLAME_STRIKE.get(), FlameStrikeRenderer::new);
         event.registerEntityRenderer(EntityRegistry.ELECTROCUTE_PROJECTILE.get(), ElectrocuteRenderer::new);
         event.registerEntityRenderer(EntityRegistry.FIREBOLT_PROJECTILE.get(), FireboltRenderer::new);
-        event.registerEntityRenderer(EntityRegistry.TESTBOLT_PROJECTILE.get(), FireboltRenderer::new);
+        event.registerEntityRenderer(EntityRegistry.TESTBOLT_PROJECTILE.get(), TestboltRenderer::new);
         event.registerEntityRenderer(EntityRegistry.ICICLE_PROJECTILE.get(), IcicleRenderer::new);
         event.registerEntityRenderer(EntityRegistry.FIRE_BREATH_PROJECTILE.get(), NoopRenderer::new);
         event.registerEntityRenderer(EntityRegistry.POISON_BREATH_PROJECTILE.get(), NoopRenderer::new);
