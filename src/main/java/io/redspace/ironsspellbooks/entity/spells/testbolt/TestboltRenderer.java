@@ -25,7 +25,7 @@ import net.minecraft.world.phys.Vec3;
 public class TestboltRenderer extends EntityRenderer<Projectile> {
 
     public static final ModelLayerLocation MODEL_LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation(IronsSpellbooks.MODID, "firebolt_model"), "main");
-    private static ResourceLocation TEXTURE = IronsSpellbooks.id("textures/entity/fireball/firebolt.png");
+    private static ResourceLocation TEXTURE = IronsSpellbooks.id("textures/entity/fireball/testbolt.png");
 
 
 
