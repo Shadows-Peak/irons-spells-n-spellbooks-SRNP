@@ -123,6 +123,7 @@ public class SpellRegistry {
     public static final RegistryObject<AbstractSpell> BURNING_DASH_SPELL = registerSpell(new BurningDashSpell());
     public static final RegistryObject<AbstractSpell> FIREBALL_SPELL = registerSpell(new FireballSpell());
     public static final RegistryObject<AbstractSpell> FIREBOLT_SPELL = registerSpell(new FireboltSpell());
+    public static final RegistryObject<AbstractSpell> TESTBOLT_SPELL = registerSpell(new TestboltSpell());
     public static final RegistryObject<AbstractSpell> FIRE_BREATH_SPELL = registerSpell(new FireBreathSpell());
     public static final RegistryObject<AbstractSpell> MAGMA_BOMB_SPELL = registerSpell(new MagmaBombSpell());
     public static final RegistryObject<AbstractSpell> WALL_OF_FIRE_SPELL = registerSpell(new WallOfFireSpell());
