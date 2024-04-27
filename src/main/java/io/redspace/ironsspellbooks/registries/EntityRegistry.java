@@ -35,6 +35,7 @@ import io.redspace.ironsspellbooks.entity.spells.fire_breath.FireBreathProjectil
 import io.redspace.ironsspellbooks.entity.spells.fireball.MagicFireball;
 import io.redspace.ironsspellbooks.entity.spells.fireball.SmallMagicFireball;
 import io.redspace.ironsspellbooks.entity.spells.firebolt.FireboltProjectile;
+import io.redspace.ironsspellbooks.entity.spells.testbolt.TestboltProjectile;
 import io.redspace.ironsspellbooks.entity.spells.guiding_bolt.GuidingBoltProjectile;
 import io.redspace.ironsspellbooks.entity.spells.ice_block.IceBlockProjectile;
 import io.redspace.ironsspellbooks.entity.spells.icicle.IcicleProjectile;
